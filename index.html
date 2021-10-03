@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" href="css/style.css">
+  <title>Graduate Assignment</title>
+</head>
+<body>
+  <div id="weather">
+    <span></span>
+    <span></span>
+  </div>
+  <h2 id="clock">00:00:00</h2>
+  <form class="hidden" id="login-form">
+    <input required maxlength="15"
+    type="text"
+    placeholder="Type your name here"
+    />
+    <input type="submit" value="Log In" />
+  </form>
+  <h1 class="hidden" id="greeting"></h1>
+  <form id="todo-form">
+    <input type="text" placeholder="Write a TO Do here" required />
+  </form>
+  <ul id="todo-list"></ul>
+  <script src="js/weather.js"></script>
+  <script src="js/background.js"></script>
+  <script src="js/clock.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/todo.js"></script>
+</body>
+</html>
